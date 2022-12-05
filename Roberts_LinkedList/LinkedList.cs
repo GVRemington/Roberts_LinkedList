@@ -97,6 +97,7 @@ namespace Roberts_LinkedList
             while (_current != null)
             {
                 list = list + "\n" + _current.Data;
+                _current = _current.Next;
             }
 
             return list;
